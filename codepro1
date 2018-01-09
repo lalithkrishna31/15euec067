@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main() {
+    int n,i;
+    char a1[20],a2[20];
+    scanf("%d",&n);
+    scanf("%s\n%s",a1,a2);
+    for(i=0;a1[i]!='\0';i++)
+    {
+     if(a1[i]==a2[i])
+     {
+         printf("%c",a1[i]);
+     }
+     else
+     {
+         break;
+     }
+    }
+     return 0;
+    
+}
